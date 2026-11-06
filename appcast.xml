@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Tomi</title>
+        <item>
+            <title>0.1</title>
+            <pubDate>Fri, 06 Nov 2026 13:47:26 +0300</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://meettomi.com/Tomi-0.1.dmg" length="7872434" type="application/octet-stream" sparkle:edSignature="bFCzXyzuB26HmuEKAM+fUZaebEJKBmKHdsagr8JpW3Dv2WHqCRI8z9VirsnRv5QKxpyfmWGEn/N00Fvge6iuDQ=="/>
+        </item>
+    </channel>
+</rss>
