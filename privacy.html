@@ -62,6 +62,7 @@ main a{color:var(--accent-text);text-underline-offset:4px}
 code{font:inherit;font-weight:700;color:var(--text)}
 footer{max-width:760px;margin:clamp(96px,10vw,136px) auto 0;border-top:1px solid var(--line);padding:32px var(--pad) 40px;display:flex;justify-content:space-between;align-items:center;gap:24px}
 footer span,.made{color:var(--faint);font-size:14px;text-decoration:none}
+footer .end{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:16px 24px}
 .made:hover{color:var(--soft);text-decoration:underline;text-underline-offset:4px}
 @media (max-width:760px){:root{--pad:24px}h2{margin-top:44px}}
 </style>
@@ -91,13 +92,19 @@ footer span,.made{color:var(--faint);font-size:14px;text-decoration:none}
   <p>The footer of the home page has a “Support me on Ko-fi” button. It's a widget from Ko-fi: when the page loads, your browser fetches a script and images from <code>storage.ko-fi.com</code>, and Ko-fi's script also loads a font from Google Fonts (<code>fonts.googleapis.com</code>). That means Ko-fi and Google can receive your IP address and browser details.</p>
   <p>How they handle that is covered by <a href="https://ko-fi.com/home/privacy">Ko-fi's privacy policy</a> and <a href="https://policies.google.com/privacy">Google's privacy policy</a>. If you click the button, you go to ko-fi.com, which is Ko-fi's own site. This page doesn't load the widget.</p>
 
+  <h2>Artwork and copyright</h2>
+  <p>The Tomi character and original artwork are Copyright © 2026 Carlos Aguado. You can read the <a href="/art-license.html">artwork rights and wallpaper permission</a>.</p>
+
   <h2>Questions</h2>
   <p>Questions? Email <a href="mailto:contact@meettomi.com">contact@meettomi.com</a>.</p>
 </main>
 
 <footer>
   <span>Tomi</span>
-  <a class="made" href="https://carlosaguado.dev">Carlos Aguado</a>
+  <div class="end">
+    <a class="made" href="/art-license.html">Artwork rights</a>
+    <a class="made" href="https://carlosaguado.dev">Carlos Aguado</a>
+  </div>
 </footer>
 
 <script>
